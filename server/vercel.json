@@ -1,0 +1,15 @@
+{
+    "$schema":  "https://openapi.vercel.sh/vercel.json",
+    "framework":  null,
+    "outputDirectory":  "static",
+    "rewrites":  [
+                     {
+                         "source":  "/api/:path*",
+                         "destination":  "https://cad-happens-spirit-pos.trycloudflare.com/api/:path*"
+                     },
+                     {
+                         "source":  "/static/:path*",
+                         "destination":  "/:path*"
+                     }
+                 ]
+}

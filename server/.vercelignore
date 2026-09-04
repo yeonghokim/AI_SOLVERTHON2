@@ -1,0 +1,13 @@
+.env
+.venv
+.deploy
+.git
+.pytest_cache
+__pycache__
+tests
+announcements.db
+app.py
+requirements.txt
+README.md
+server-*.log
+server-*.err.log

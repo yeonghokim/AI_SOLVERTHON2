@@ -1,0 +1,8 @@
+.summary-grid { grid-template-columns: repeat(3, 1fr); }
+.summary.unknown { border-color: #d8bf72; background: #fff6d8; }
+.undetermined { color: #725b12; background: #fff0b8; }
+body.dark .summary.unknown { border-color: #7c692d; background: #352f1c; }
+
+@media (max-width: 480px) {
+  .summary-grid { grid-template-columns: 1fr; }
+}
